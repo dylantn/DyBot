@@ -8,7 +8,7 @@ module.exports = {
         .addFields(
             { name: 'Commands', value: 'Some value here' },
             { name: '\u200B', value: '\u200B' },
-            { name: 'Inline field title', value: 'string\n string\n '},
+            { name: 'Basic Commands', value: 'string\n string\n '},
             { value: 'Some value here', inline: true },
         )
         .setImage('https://i.imgur.com/nM2cfUo.png')
