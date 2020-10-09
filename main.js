@@ -29,14 +29,14 @@ client.on('message', message =>{
  
     if(command === 'creator'){
         client.commands.get('creator').execute(message, args);
-    } else if (command == 'server'){
-        client.commands.get('server').execute(message, args)
     } else if (command == 'invite'){
         client.commands.get('invite').execute(message, args);
     } else if (command == 'embed'){
         client.commands.get('embed').execute(message, args);
     } else if (command == 'help'){
         client.commands.get('help').execute(message, args);
+    } else if (command == 'voice'){
+        client.commands.get('voice').execute(message, args);
     }
 });
  
